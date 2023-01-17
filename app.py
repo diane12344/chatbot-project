@@ -13,7 +13,7 @@ chatBot = chatBot()
 #import nltk
 #nltk.download('punkt')
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresqr+psycopg2://admin:FqMSYClBNPiFZ4mswEtRqK2w08XIPjsq@dpg-cf35tuen6mpkr681f1o0-a.oregon-postgres.render.com/chatbot_mk9h"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:FqMSYClBNPiFZ4mswEtRqK2w08XIPjsq@dpg-cf35tuen6mpkr681f1o0-a.oregon-postgres.render.com/chatbot_mk9h"
 db = SQLAlchemy(app)
 CORS(app)
 ## Database
