@@ -7,3 +7,5 @@ nltk
 gunicorn
 torch
 numpy
+psycopg2
+flask_sqlalchemy
