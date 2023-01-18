@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">A RURA CHATBOT</h3>
+  <h3 align="center">RSSB CHATBOT</h3>
 
   <p align="center">
-    A conversation chatbot to server information related to RURA!
+    Conversational chatbot related to RSSB!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -81,7 +81,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 Welcome to our government institution's chatbot! Our chatbot is designed to assist you in finding the information you need on our website. Whether you are looking for information on our services, programs, or resources, our chatbot can help guide you to the right page. Simply type in a keyword or question, and our chatbot will provide you with a list of relevant links. If you can't find what you're looking for, our chatbot will also be able to connect you with a live representative for further assistance. Thank you for choosing our government institution's chatbot as your go-to source for information.
+
+Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,16 +95,17 @@ Welcome to our government institution's chatbot! Our chatbot is designed to assi
 
 ### Built With
 
-This section should list all the packages are used.
+This section should list any major frameworks/libraries used to develop the chatbot.
 
-*python
-*numpy
-*NLTK
+*detectlanguage
 *Flask
-*psycopg2
+*NLTK
+*numpy
+*python
 *pytorch
+*gunicorn
+*psycopg2
 *flask_sqlalchemy
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -106,27 +113,29 @@ This section should list all the packages are used.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-use the following commands to install and run the chatbot application
+Use the following commands to install and run the chatbot application.
+
+
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1.  Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/diane12344/chatbot-project.git
+   git clone https://github.com/KABANYANA/Joyeuse-code-chatbot-huzalabs.git
    ```
- 2. go to the directory
-    ```sh
-    cd chatbot-project
-    ```
- 3. Install pip packages
+2. Go into the repository
    ```sh
-   pip install r-requirements.text
+   cd Joyeuse-code-chatbot-huzalabs
+3. Install pip packages
+   ```sh
+   pip install -r requirements.txt
    ```
-4. start the flask APP USING gunicon
+4. start the flask using gunicorn
    ```sh
-  gunicon app:app 
+   gunicorn app:app
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,8 +145,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-after running the gunicon cammand open your browser at http://127.0.0.1/5000 to interact with chatbot.
-
+After running the gunicorn command open your browser at http://127.0.0.1/5000 to interact with the chatbot
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,26 +154,21 @@ after running the gunicon cammand open your browser at http://127.0.0.1/5000 to 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add database
-- [x] Add host on Render
-- [ ] Add Language detect
+- [x] Add Database
+- [x] Host on render
+- [X] Add Language detect
 - [ ] deploy using Docker
-- [ ] add voice interaction
-   
+- [ ] Add voice interaction
+  
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## contact
+## Contact
 
-
-
-
-Diane - [@Linkedin](https://www.linkedin.com/in/mujawimana-diane-77b187236/) - mujawimanadiane40@gmail.com
-
-
+joyeuse - [@Linkedin](https://www.linkedin.com/in/joyeuse-kabanyana) - joyeusekabanyana@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,3 +223,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
