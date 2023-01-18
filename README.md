@@ -136,7 +136,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-after running the gunicon cammand open your brower at http://127.0.0.1/5000 to interact with chatbot.
+after running the gunicon cammand open your browser at http://127.0.0.1/5000 to interact with chatbot.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
