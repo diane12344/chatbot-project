@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">RSSB CHATBOT</h3>
+  <h3 align="center">RURA CHATBOT</h3>
 
   <p align="center">
-    Conversational chatbot related to RSSB!
+    Conversational chatbot related to RURA!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -124,11 +124,11 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/KABANYANA/Joyeuse-code-chatbot-huzalabs.git
+   git clone https://github.com/diane12344/chatbot-project.git
    ```
 2. Go into the repository
    ```sh
-   cd Joyeuse-code-chatbot-huzalabs
+   cd chatbot-project
 3. Install pip packages
    ```sh
    pip install -r requirements.txt
@@ -168,7 +168,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTACT -->
 ## Contact
 
-joyeuse - [@Linkedin](https://www.linkedin.com/in/joyeuse-kabanyana) - joyeusekabanyana@gmail.com
+Diane - [@Linkedin](https://www.linkedin.com/in/mujawimana-diane-77b187236/) - mujawimanadiane40@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
