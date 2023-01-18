@@ -124,7 +124,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    pip install r-requirements.text
    ```
-4. start the flask APP USING gunicon`
+4. start the flask APP USING gunicon
    ```sh
   gunicon app:app 
    ```
