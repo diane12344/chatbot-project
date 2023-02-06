@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "services",
+        "patterns": [
+       "what are the services of RBC?"
+        ],
+        "responses": [
+        "In the event that you are feeling sick, please contact your nearest Health Centre or Health Post. If necessary, a Community Health Worker will refer you to a District Hospital.Our staff is highly qualified and medically trained, and we kindly ask you to follow their instructions.Our goal is to offer you the best possible attention and medical service. We are constantly evolving and working to get even better every day. In the event you are not satisfied with our work, please do not hesitate to contact us.",
+        "For any questions about our services, or in the event of an emergency please call our toll free number 114 or call +250788202080"
+        
+  
+        ]
+      },
+      {
+        "tag": "Endings",
+        "patterns": [
+          "Thank you"
+          
+        ],
+        "responses": [
+     "you are welcome!"
+         
+  
+        ]
+      },
+      {
+        "tag": "mission_vision",
+        "patterns": [
+          "what are the mission of RBC?",
+          "what are the vision ?"
+        ],
+        "responses": [
+          "Mission: RBC promotes high quality, affordable, and sustainable health care services to the population through evidence-based interventions and practices guided by ethics and professionalism. Vision: To become a Center of Excellence for the prosperity of the country, ensuring quality health service delivery, education and research."
+        ]
+      },
+      
+      
+      
+      {
+        "tag": "Home",
+        "patterns": [
+          "Guide me to Home?",
+          "Where do you get Home?",
+          "What is the link to the Home?",
+          "How do you get Home?",
+          "Who is in Charge of Home?"
+        ],
+        "responses": [
+          "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=188\" target=\"_blank\">here</a> for more information"
+        ]
+      },
+      {
+        "tag": "Event",
+        "patterns": [
+          "Guide me to events in  RBC?"
+          
+        ],
+        "responses": [
+          "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=632\" target=\"_blank\">here</a> for more information"
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          
+          "What is the link to contact?"
+          
+        ],
+        "responses": [
+          "You can use this link <a href =\"https://www.rbc.gov.rw/index.php?id=633\" target=\"_blank\">here</a> for more information"
+        ]
+      }
+    ]
+}
+      
+     
+      
+      
+      
+     
+      
+     
+      
